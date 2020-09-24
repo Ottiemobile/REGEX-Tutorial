@@ -67,7 +67,25 @@ Not typing in any specific type of anchor can locate specific pieces of text wit
 reminder that these expressions are case sensitive
 
 ### Quantifiers
-Quantifiers are 
+The Quantifier element matches the following piece of text one or more times.
+
+The star symbol (*) is used to match text within a string that has a specific piece of text with none or more 
+of the last string text:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/quantifier-1.png" alt="The quantifier that uses the * symbol to find a specific peice of text with or without the last character in the expression. ">
+</p>
+<br/>
+
+The plus symbol (+) finds and matches text within the string followed by one or more of the same last character:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/quantifier-2.png" alt="The quantifier that uses the + symbol to find one or more of the last character in the piece of string ">
+</p>
+<br/>
+
 
 ### OR Operator
 
