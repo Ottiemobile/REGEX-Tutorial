@@ -46,25 +46,28 @@ the dollar sign ($) is used as an ending anchor and it is used to match any piec
 
 <br/>
 <p align="center">
-  <img src="./assets/img/end-anchor.png" alt="Ending Anchor">
+  <img src="./assets/images/end-anchor.png" alt="Ending Anchor">
 </p>
 <br/>
 
-Not typing in any specific type of anchor can locate specific pieces of text within the string 
-
-<br/>
-<p align="center">
-  <img src="./assets/img/anywhere-anchor1.png" alt="Ending Anchor">
-</p>
-<br/>
+Not typing in any specific type of anchor can locate specific pieces of text within the string:
 
 <br/>
 <p align="center">
-  <img src="./assets/img/anywhere-anchor2.png" alt="Ending Anchor">
+  <img src="./assets/images/anywhere-anchor1.png" alt="An Anchor with no specifc location symbol">
 </p>
 <br/>
+
+<br/>
+<p align="center">
+  <img src="./assets/images/anywhere-anchor2.png" alt="Another Anchor with no specifc location symbol">
+</p>
+<br/>
+
+reminder that these expressions are case sensitive
 
 ### Quantifiers
+Quantifiers are 
 
 ### OR Operator
 
