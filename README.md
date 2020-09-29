@@ -57,6 +57,8 @@ Not typing in any specific type of anchor can locate specific pieces of text wit
   <img src="./assets/images/anywhere-anchor1.png" alt="An Anchor with no specifc location symbol">
 </p>
 <br/>
+Looking at this image, you can see that "there" was located in the middle of the string with no use of the "$" or "^" symbols, making it focus on finding the specific piece of text anywhere on the 
+
 
 <br/>
 <p align="center">
@@ -82,9 +84,23 @@ The plus symbol (+) finds and matches text within the string followed by one or 
 
 <br/>
 <p align="center">
-  <img src="./assets/images/quantifier-2.png" alt="The quantifier that uses the + symbol to find one or more of the last character in the piece of string ">
+  <img src="./assets/images/quantifier-2.png" alt="The quantifier that uses the + symbol to find one or more of the last character in the piece of string.">
 </p>
 <br/>
+
+The question mark (?) matches text in a string followed by either no or one of the last character in a piece of text.
+
+<br/>
+<p align="center">
+  <img src="./assets/images/quantifier-3.png" alt="The quantifier grabs pieces of string within a text that either uses no or one of the last character.">
+</p>
+<br/>
+
+Looking at this image, you can see that the expression still grabbed all or only a part of the strings that contained "ab" and/or "c" within the text.
+
+The curly brackets "{}", is able to match in multiple ways:
+
+using curly brackets with only one number inside like this can match a string that has matching string followed by the exact number of last specific piece of a matching character.
 
 
 ### OR Operator
@@ -106,5 +122,7 @@ The plus symbol (+) finds and matches text within the string followed by one or 
 ### Look-ahead and Look-behind
 
 ## Author
+Ethan Torres is a web developer that
+
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
