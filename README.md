@@ -146,6 +146,6 @@ Ethan Torres is a web developer that is learning full-stack web development thro
 
 <br/>
 <h2 align="center">
-  Click <a href:"https://github.com/Ottiemobile"><strong>HERE</strong></a> to learn more about his past projects.
+  Click <a href:"https://github.com/Ottiemobile">HERE</a> to learn more about his past projects.
 </h2>
 <br/>
