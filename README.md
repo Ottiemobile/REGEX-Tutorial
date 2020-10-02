@@ -143,9 +143,6 @@ loooking at the
 ## Author
 Ethan Torres is a web developer that is learning full-stack web development through the University of Texas at Austin.
 
+check out his github to learn more about his past projects at:
+https://github.com/Ottiemobile
 
-<br/>
-<h2 align="center">
-  Click <a href:"https://github.com/Ottiemobile">HERE</a> to learn more about his past projects.
-</h2>
-<br/>
