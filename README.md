@@ -102,6 +102,25 @@ The curly brackets "{}", is able to match in multiple ways:
 
 using curly brackets with only one number inside like this can match a string that has matching string followed by the exact number of last specific piece of a matching character.
 
+For example: the expression {4} will find any piece of string that has exactly 4 of the same last character on that said text.   
+
+<br/>
+<p align="center">
+  <img src="./assets/images/quantifier-4.png" alt="This quantifier grabs any piece of string that matches as well as having a specific number of 'n''s given within the brackets.">
+</p>
+<br/>
+
+If you have a comma after the number within the curly brackets like this: {4, } , you are then finding the matching text as well as 4 or more of the same character.
+
+<br/>
+<p align="center">
+  <img src="./assets/images/quantifier-5.png" alt="This quantifier grabs any piece of string that matches as well as having a specific number of 'n''s given within the brackets.">
+</p>
+<br/>
+
+
+loooking at the 
+
 
 ### OR Operator
 
@@ -122,7 +141,11 @@ using curly brackets with only one number inside like this can match a string th
 ### Look-ahead and Look-behind
 
 ## Author
-Ethan Torres is a web developer that
+Ethan Torres is a web developer that is learning full-stack web development through the University of Texas at Austin.
 
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+<br/>
+<h2 align="center">
+  Click <a href:"https://github.com/Ottiemobile"><strong>HERE</strong></a> to learn more about his past projects.
+</h2>
+<br/>
