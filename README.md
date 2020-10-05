@@ -197,6 +197,26 @@ The `\D` expression can match any single character that is NOT a number(NaN).
 </p>
 <br/>
 
+The `\W` expression can match any single character that is NOT alphanumerical nor an underscore.
+<br/>
+<p align="center">
+  <img src="./assets/images/cc6.png" alt="the \W function can match any single string that is not a letter or a number">
+</p>
+<br/>
+
+the `\S` expression can match any string that is NOT a space nor an empty string.
+<br/>
+<p align="center">
+  <img src="./assets/images/cc5.png" alt="the \S function can match any single string that is not a blank string or a space">
+</p>
+<br/>
+
+the period `.` is a special character class expression that matches ALL characters.
+<br/>
+<p align="center">
+  <img src="./assets/images/cc7.png" alt="as an expression, the period can be used to find all characters within a string, from numbers, letters, and spaces.">
+</p>
+<br/>
 
 ### Flags
 
