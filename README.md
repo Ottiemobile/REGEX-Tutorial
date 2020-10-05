@@ -38,7 +38,7 @@ the caret symbol (^) is used as the start anchor and it is used to match any pie
 
 <br/>
 <p align="center">
-  <img src="./assets/img/start-anchor.png" alt="Starting Anchor">
+  <img src="./assets/images/start-anchor.png" alt="Starting Anchor">
 </p>
 <br/>
 
@@ -136,8 +136,67 @@ as shown above, the expression matches the similar string with 4 or 6 of the sam
 
 OR Operators (also known as Alternation Operators) uses a boolean format to match a string that either has one piece of text or the other. for example:  
 
+The OR operator being used below either matches a string with either b or c using a "(|)" method 
+
+<br/>
+<p align="center">
+  <img src="./assets/images/or_operator1.png" alt="the OR Operator can match strings ">
+</p>
+<br/>
+
+Surprisingly, it is not limited to just only two slots, you can add more slots for arguments to match more strings within the text area. 
+
+<br/>
+<p align="center">
+  <img src="./assets/images/or_operator2.png" alt="the OR Operator can use two or more arguments within one regex request">
+</p>
+<br/>
+
+
 
 ### Character Classes
+Character Classes asks the regex engine to find one specific key character class within a string, such as numbers, letters, and many others.
+
+
+The `\d` expression can detect any digit within the string.
+
+I created a couple of sentences using numbers inside the words to see if the regex expression can detect them, with no surprise, the expression spotted the numbers with ease. this is very useful if you want people to add numbers to a password like the one on the botom part of the image.
+
+<br/>
+<p align="center">
+  <img src="./assets/images/cc1.png" alt="the \d function can detect any digit within a string">
+</p>
+<br/>
+
+The `\w` expression can find any word character within a string, both alphanumeric and underscores.
+
+<br/>
+<p align="center">
+  <img src="./assets/images/cc2.png" alt="the \w function can detect numbers and letters within a string as well as underscores.">
+</p>
+<br/>
+
+looking at this image, we can see it is matching ONE character as a single match, it does not match one full word.
+
+The `\s` expression can find any blank spaces within the text.
+
+
+<br/>
+<p align="center">
+  <img src="./assets/images/cc3.png" alt="the \s function can match any peice of blank pieces of string within text">
+</p>
+<br/>
+
+
+Using capital letter versions of these expressions can give you the opposite effect. 
+
+The `\D` expression can match any single character that is NOT a number(NaN).
+<br/>
+<p align="center">
+  <img src="./assets/images/cc4.png" alt="the \D function can match any single string that is not a digit">
+</p>
+<br/>
+
 
 ### Flags
 
