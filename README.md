@@ -1,9 +1,9 @@
 # A Guide to Rejex
 
-Introductory paragraph (replace this with your text)
+
 
 What is Rejex?
-Regular Expression(otherwise known as Regex) is a sequence of characters that defines a search pattern for text. Regular expressions are commonly used to search for specific sequences of characters within a string, this could be used to extract specific information from any text such as phone numbers, email adresses, dates, and so forth. The most interesting thing about regular expressions is that it can be used in almost every programming language (Javascript, Java, Python, Ruby, etc.)
+Regular Expression(otherwise known as Regex) is a sequence of characters that defines a search pattern for text. Regular expressions are commonly used to search for specific sequences of characters within a string, this could be used to extract specific information from any text such as phone numbers, email adresses, dates, and so forth. The most interesting thing about regular expressions is that it can be used in almost every programming language (Javascript, Java, Python, Ruby, etc.). Ever been on a search engine like Google or Bing? They use regular expressions in their search algorithm for people to find exactly what they're looking for.
 
 ## Summary
 
@@ -119,10 +119,23 @@ If you have a comma after the number within the curly brackets like this: {4, } 
 <br/>
 
 
-loooking at the 
+looking at the image above, when using this quantifier, users can grab  more than one 
 
+A pretty neat feature, but what happens if you add another number on the other side of the comma?
+
+Let's try typing teen{4,6} into the expression:
+<br/>
+<p align="center">
+  <img src="./assets/images/quantifier-6.png" alt="This quantifier matches any piece of string with 4 or 6 of the last ">
+</p>
+<br/>
+
+as shown above, the expression matches the similar string with 4 or 6 of the same last character in the string.
 
 ### OR Operator
+
+OR Operators (also known as Alternation Operators) uses a boolean format to match a string that either has one piece of text or the other. for example:  
+
 
 ### Character Classes
 
