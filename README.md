@@ -219,6 +219,62 @@ the period `.` is a special character class expression that matches ALL characte
 <br/>
 
 ### Flags
+Flags are optional search parameters that can effect the way the search is handled. these flags take place outside of the expression, as shown below.
+
+
+the global flag `g`, searches for all matches within the string parameter. Without using this flag, only the first match will return.
+
+Without g:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag1.png" alt="without the use of a global flag, only the first match will be found.">
+</p>
+<br/>
+
+With g:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag2.png" alt="using the `g` flag, we were able to find all matches within the string parameters.">
+</p>
+<br/>
+
+The global flag is useful for searches.
+
+The multi-line flag `m` only effects the usage of the anchors `^` and `$`.
+
+Let's take a look at the bottom text: 
+<br/>
+<p align="center">
+  <img src="./assets/images/text.png">
+</p>
+<br/>
+
+
+If we were to look for any text that starts and ends with hello only using the global `g` flag, nothing will match, as shown below:
+<br/>
+<p align="center">
+  <img src="./assets/images/flag3.png" alt="no match is being found when using only the global flag">
+</p>
+<br/>
+
+However, when using the multiline flag `m`, we would be able to match one string within the text parameters.
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag4.png" alt="Using the multiflag, we are able to fing one matching anchor with ^ and $">
+</p>
+<br/>
+
+Using both the global and the multiline tags together, we are able to find more than one string within the parameters:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag4.png" alt="Using both the multiflag and the global flag, we are able to find , we are able to fing one matching anchor with ^ and $">
+</p>
+<br/>
+
 
 ### Grouping and Capturing
 
