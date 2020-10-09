@@ -263,7 +263,7 @@ However, when using the multiline flag `m`, we would be able to match one string
 
 <br/>
 <p align="center">
-  <img src="./assets/images/flag4.png" alt="Using the multiflag, we are able to fing one matching anchor with ^ and $">
+  <img src="./assets/images/flag4.png" alt="Using the multiflag, we are able to find one matching anchor with ^ and $">
 </p>
 <br/>
 
@@ -271,14 +271,75 @@ Using both the global and the multiline tags together, we are able to find more 
 
 <br/>
 <p align="center">
-  <img src="./assets/images/flag4.png" alt="Using both the multiflag and the global flag, we are able to find , we are able to fing one matching anchor with ^ and $">
+  <img src="./assets/images/flag4.png" alt="Using both the multiflag and the global flag, we are able to find one matching anchor with ^ and $">
+</p>
+<br/>
+
+The Ignore Case `i` flag can be used to match any piece of alphanumerical string despite the case sensitivity.
+
+Ever been on a search engine and accidentally presses the shift key or caps lock while typing and the thing yuou were looking for? that's the power of the `i` flag. 
+
+As shown below: you can see it in action within the google search results: 
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag5.png" alt="Google is able to look up anything despite all the capitalization with the use of the `i` flag">
+</p>
+<br/>
+
+Here's an example with what it would look like with just the `i` flag itself:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag6.png" alt="The `i` flag is able to match the first matching text despite its mixed up casing. However, like the multi-line `m` flag, it is only able to return the first matching piece of string.">
+</p>
+<br/>
+
+Just like the Multi-line flag, it is unable to match more than one string within the text parameter, so in order to match all of the strings here, we need to use the global `g` flag with the `i` flag as shown below:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag7.png" alt="With the global `g` flag, the ignore cases `i` flag is now able to match more than one piece of string.">
+</p>
+<br/>
+
+This also works with the expression having mixed up casing as well:
+
+<br/>
+<p align="center">
+  <img src="./assets/images/flag7.png" alt="the ignore cases flag also works with mixed up casing coming from the expresion as well. Pretty useless info but it's something to know nonetheless.">
+</p>
+<br/>
+
+### Grouping and Capturing
+The Grouping and Capturing Operator can be used to extract data from the strings using any programming language. the parenthesis `()` create a "Capturing Group". Here's an example:
+
+/a(bracadabra)/g
+
+<br/>
+<p align="center">
+  <img src="./assets/images/gc1.png" alt="The string gets grouped inside the parenthesis with value 'cadabra' inside of it.">
+</p>
+<br/>
+
+The Parenthases creates what is called a "capturing group" with the value "cadabra" inside of it. the capturing group within the expression matches the matching string within the test string.
+
+if you want to disable the capturing group within the parantheses, you can write your expression like this:
+
+ (?: )*
+
+ A question mark with a colon within the parentheses with a star outside of the right side of the parentheses is able to match the string inside the text parameter with or without the capturing group.
+
+<br/>
+<p align="center">
+  <img src="./assets/images/gc2.png" alt="With the capturing group disabled, we are able to capture either the text outside of the parentheses or with it.">
 </p>
 <br/>
 
 
-### Grouping and Capturing
 
 ### Bracket Expressions
+
 
 ### Greedy and Lazy Match
 
